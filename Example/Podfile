@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSLetsService_Hero_sdk_Example' do
+  pod 'iOSLetsService_Hero_sdk', :path => '../'
+
+  target 'iOSLetsService_Hero_sdk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
