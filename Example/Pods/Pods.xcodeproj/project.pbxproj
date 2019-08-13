@@ -40,13 +40,13 @@
 		0498F26E78191C04FC53D898E1877598 /* Pods-iOSLetsService_Hero_sdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSLetsService_Hero_sdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		073236E9382310EEFD71BEAB6E61D24C /* Pods-iOSLetsService_Hero_sdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSLetsService_Hero_sdk_Tests-Info.plist"; sourceTree = "<group>"; };
 		0D3435B9BA4E4E280B22A493925ECDFC /* Pods-iOSLetsService_Hero_sdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSLetsService_Hero_sdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		28A251F0E19B9C037DABBD115610605A /* iOSLetsService_Hero_sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = iOSLetsService_Hero_sdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28A251F0E19B9C037DABBD115610605A /* iOSLetsService_Hero_sdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = iOSLetsService_Hero_sdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2FCFDA84816822B970404F55D174A54F /* Pods-iOSLetsService_Hero_sdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLetsService_Hero_sdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		30A563A2940BD81E6112CBD2AAB66B2D /* Pods-iOSLetsService_Hero_sdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSLetsService_Hero_sdk_Tests.modulemap"; sourceTree = "<group>"; };
-		313FA85ADCCB97881DEF2E7694BA7014 /* Pods_iOSLetsService_Hero_sdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSLetsService_Hero_sdk_Example.framework; path = "Pods-iOSLetsService_Hero_sdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		313FA85ADCCB97881DEF2E7694BA7014 /* Pods_iOSLetsService_Hero_sdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLetsService_Hero_sdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		37C9AAACDEECC144073DD4EF1C674306 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		38943CFBA246235F8063D28C7569B4EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		37C9AAACDEECC144073DD4EF1C674306 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		38943CFBA246235F8063D28C7569B4EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3F87104AC7C901DD03B773C8F50E8C74 /* iOSLetsService_Hero_sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSLetsService_Hero_sdk-dummy.m"; sourceTree = "<group>"; };
 		4E1B13C3DBF0395D9D139FAF5869B409 /* Pods-iOSLetsService_Hero_sdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLetsService_Hero_sdk_Example-dummy.m"; sourceTree = "<group>"; };
 		4FED7C22776F849769005460424563FA /* Pods-iOSLetsService_Hero_sdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSLetsService_Hero_sdk_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -56,13 +56,13 @@
 		7A9FF55CC3F567716F5034D48D8DA3D5 /* iOSLetsService_Hero_sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSLetsService_Hero_sdk.modulemap; sourceTree = "<group>"; };
 		7E54BFEFAAECBB692ABE2236D3C81F5D /* Pods-iOSLetsService_Hero_sdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLetsService_Hero_sdk_Tests-umbrella.h"; sourceTree = "<group>"; };
 		867109E943C36DE0A863B03518E53DA9 /* iOSLetsService_Hero_sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSLetsService_Hero_sdk-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0B5154146BC06FF281056CAA098EA80 /* Pods_iOSLetsService_Hero_sdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSLetsService_Hero_sdk_Tests.framework; path = "Pods-iOSLetsService_Hero_sdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0B5154146BC06FF281056CAA098EA80 /* Pods_iOSLetsService_Hero_sdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLetsService_Hero_sdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5680B1130C50AE71BF1FD155957781E /* iOSLetsService_Hero_sdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSLetsService_Hero_sdk-prefix.pch"; sourceTree = "<group>"; };
 		C03CCB396D3CC54F5607FD9FB3132D20 /* Pods-iOSLetsService_Hero_sdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSLetsService_Hero_sdk_Example.modulemap"; sourceTree = "<group>"; };
 		C62314E7E0017B26F290C2B57291C75A /* Pods-iOSLetsService_Hero_sdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLetsService_Hero_sdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CD18CEA6AE6A3EC3140A472FFB809CB1 /* Pods-iOSLetsService_Hero_sdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSLetsService_Hero_sdk_Example-umbrella.h"; sourceTree = "<group>"; };
-		D22E0A8EDB0F126E772B7FA2923B0759 /* iOSLetsService_Hero_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSLetsService_Hero_sdk.framework; path = iOSLetsService_Hero_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22E0A8EDB0F126E772B7FA2923B0759 /* iOSLetsService_Hero_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSLetsService_Hero_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC486C572D0ED7696E9433EEA6F89593 /* Pods-iOSLetsService_Hero_sdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSLetsService_Hero_sdk_Example-Info.plist"; sourceTree = "<group>"; };
 		E2E025DC648FA48FB9451A8B65AA90CD /* Pods-iOSLetsService_Hero_sdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSLetsService_Hero_sdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E4BED104A6DE5BB9CB1337AC9DEC17E6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = iOSLetsService_Hero_sdk/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					7027C79B19AE8BF4F60F04F3F283D0D6 = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -322,6 +327,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 23EFEB9B4882FC29C1F215F470B97854 /* Products */;
@@ -527,7 +533,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -558,7 +564,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -653,8 +659,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
