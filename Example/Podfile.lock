@@ -1,0 +1,16 @@
+PODS:
+  - iOSLetsService_Hero_sdk (0.1.0)
+
+DEPENDENCIES:
+  - iOSLetsService_Hero_sdk (from `../`)
+
+EXTERNAL SOURCES:
+  iOSLetsService_Hero_sdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSLetsService_Hero_sdk: 244bfc7c8dab1b52321f62673605774459988f21
+
+PODFILE CHECKSUM: 7f93741655338f3dc974565af72fac89200dba18
+
+COCOAPODS: 1.8.0.beta.1

@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		325586D013AD8474515001AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		325586D013AD8474515001AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C0ADB9068F1B82BC7BE6980 /* Pods_iOSLetsService_Hero_sdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLetsService_Hero_sdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECED01D7F3C665B0D55D0C0 /* Pods-iOSLetsService_Hero_sdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLetsService_Hero_sdk_Tests.release.xcconfig"; path = "Target Support Files/Pods-iOSLetsService_Hero_sdk_Tests/Pods-iOSLetsService_Hero_sdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5F7671D58E330327D72CB29D /* iOSLetsService_Hero_sdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = iOSLetsService_Hero_sdk.podspec; path = ../iOSLetsService_Hero_sdk.podspec; sourceTree = "<group>"; };
+		5F7671D58E330327D72CB29D /* iOSLetsService_Hero_sdk.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOSLetsService_Hero_sdk.podspec; path = ../iOSLetsService_Hero_sdk.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* iOSLetsService_Hero_sdk_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSLetsService_Hero_sdk_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		92EF21D4142B2902209B915F /* Pods_iOSLetsService_Hero_sdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSLetsService_Hero_sdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABF4770E39BA34539AC2371 /* Pods-iOSLetsService_Hero_sdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLetsService_Hero_sdk_Example.debug.xcconfig"; path = "Target Support Files/Pods-iOSLetsService_Hero_sdk_Example/Pods-iOSLetsService_Hero_sdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C1E0AEBDCA2031B1F3930CED /* Pods-iOSLetsService_Hero_sdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSLetsService_Hero_sdk_Tests.debug.xcconfig"; path = "Target Support Files/Pods-iOSLetsService_Hero_sdk_Tests/Pods-iOSLetsService_Hero_sdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FBAAA9DF9A00F27A1D02EF77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FBAAA9DF9A00F27A1D02EF77 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				C1E0AEBDCA2031B1F3930CED /* Pods-iOSLetsService_Hero_sdk_Tests.debug.xcconfig */,
 				5ECED01D7F3C665B0D55D0C0 /* Pods-iOSLetsService_Hero_sdk_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
