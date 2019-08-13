@@ -39,5 +39,13 @@ TODO: Implementation For Hero.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
+   
+   s.dependency 'Alamofire', '~> 4.7'
+   s.dependency 'SwiftyJSON', '~> 4.0'
+   s.dependency 'AlamofireObjectMapper', '~> 5.0'
+   s.dependency 'AlamofireImage', '~> 3.4'
+   s.dependency 'AlamofireObjectMapper', '~> 5.2'
+   s.static_framework = true
+   
   # s.dependency 'AFNetworking', '~> 2.3'
 end

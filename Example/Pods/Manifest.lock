@@ -1,16 +1,64 @@
 PODS:
-  - iOSLetsService_Hero_sdk (0.1.0)
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.1.0):
+    - GoogleMaps (= 3.1.0)
+    - GooglePlaces (= 3.1.0)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - iOSLetsService_Hero_sdk (0.1.0):
+    - Alamofire (~> 4.7)
+    - AlamofireImage (~> 3.4)
+    - AlamofireObjectMapper (~> 5.2)
+    - SwiftyJSON (~> 4.0)
+  - ObjectMapper (3.5.1)
+  - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireImage (~> 3.4)
+  - AlamofireObjectMapper (~> 5.2)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
   - iOSLetsService_Hero_sdk (from `../`)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireObjectMapper
+    - GoogleMaps
+    - GooglePlacePicker
+    - GooglePlaces
+    - ObjectMapper
+    - SwiftyJSON
 
 EXTERNAL SOURCES:
   iOSLetsService_Hero_sdk:
     :path: "../"
 
 SPEC CHECKSUMS:
-  iOSLetsService_Hero_sdk: 244bfc7c8dab1b52321f62673605774459988f21
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GooglePlacePicker: 1c60c2a26e9d1e73bcb0c6f89609db8d777d13c1
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  iOSLetsService_Hero_sdk: 56110ef9822b7963135587548e16ce3cc3ff3a8a
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 7f93741655338f3dc974565af72fac89200dba18
+PODFILE CHECKSUM: a3c6bf76a95c1ebb80f7817820f7b49bf6e4ef49
 
 COCOAPODS: 1.8.0.beta.1

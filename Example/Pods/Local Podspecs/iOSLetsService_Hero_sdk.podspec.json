@@ -1,8 +1,8 @@
 {
   "name": "iOSLetsService_Hero_sdk",
   "version": "0.1.0",
-  "summary": "A short description of iOSLetsService_Hero_sdk.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Implementation For Hero.",
+  "description": "TODO: Implementation For Hero.",
   "homepage": "https://github.com/DivyaLets/iOSLetsService_Hero_sdk",
   "license": {
     "type": "MIT",
@@ -18,5 +18,23 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "iOSLetsService_Hero_sdk/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "iOSLetsService_Hero_sdk/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.7"
+    ],
+    "SwiftyJSON": [
+      "~> 4.0"
+    ],
+    "AlamofireObjectMapper": [
+      "~> 5.2"
+    ],
+    "AlamofireImage": [
+      "~> 3.4"
+    ]
+  },
+  "static_framework": true,
+  "swift_version": "5.0"
 }
