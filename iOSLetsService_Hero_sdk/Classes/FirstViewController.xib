@@ -26,8 +26,28 @@
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8jv-P9-oo1">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="All Bookings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gk3-Rp-QHs">
+                                    <rect key="frame" x="177" y="15" width="123" height="26"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZH-tS-9cJ">
+                                    <rect key="frame" x="20" y="0.0" width="50" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="8Be-Gx-AB5"/>
+                                        <constraint firstAttribute="width" constant="50" id="RiJ-Oy-F79"/>
+                                    </constraints>
+                                    <inset key="imageEdgeInsets" minX="7" minY="7" maxX="7" maxY="7"/>
+                                    <state key="normal" image="left-arrow (1)"/>
+                                </button>
+                            </subviews>
                             <color key="backgroundColor" red="0.85882352939999995" green="0.20392156859999999" blue="0.45098039220000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
+                                <constraint firstItem="dZH-tS-9cJ" firstAttribute="leading" secondItem="8jv-P9-oo1" secondAttribute="leading" constant="20" id="L2g-CH-H1a"/>
+                                <constraint firstItem="dZH-tS-9cJ" firstAttribute="top" secondItem="8jv-P9-oo1" secondAttribute="top" id="Ptb-lu-qfd"/>
                                 <constraint firstAttribute="height" constant="50" id="eHR-B9-4LU"/>
                             </constraints>
                         </view>
@@ -57,4 +77,7 @@
             </constraints>
         </view>
     </objects>
+    <resources>
+        <image name="left-arrow (1)" width="256" height="256"/>
+    </resources>
 </document>

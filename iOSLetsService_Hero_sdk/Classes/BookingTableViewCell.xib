@@ -317,9 +317,9 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="package" width="16" height="16"/>
-        <image name="rupee-indian (1)" width="16" height="16"/>
-        <image name="star" width="16" height="16"/>
-        <image name="telephone" width="16" height="16"/>
+        <image name="package" width="512" height="512"/>
+        <image name="rupee-indian (1)" width="512" height="512"/>
+        <image name="star" width="240" height="240"/>
+        <image name="telephone" width="256" height="256"/>
     </resources>
 </document>
