@@ -47,5 +47,8 @@ TODO: Implementation For Hero.
    s.dependency 'AlamofireObjectMapper', '~> 5.2'
    s.static_framework = true
    
+   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
+
+   
   # s.dependency 'AFNetworking', '~> 2.3'
 end
